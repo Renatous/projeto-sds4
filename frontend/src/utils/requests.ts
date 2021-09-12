@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://sds4-renatous.herokuapp.com';
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL ?? 'https://localhost:8080';
